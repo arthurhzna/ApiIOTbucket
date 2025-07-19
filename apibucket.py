@@ -8,10 +8,8 @@ data_received = {"sensorValue": None, "relayStatus": None}
 mode = 1
 kondisi = 0
 
-# Inisialisasi Google Cloud Storage Client
 storage_client = storage.Client()
 
-# Nama bucket yang digunakan
 bucket_name = "iot-bucket-arthur"
 bucket = storage_client.bucket(bucket_name)
 
